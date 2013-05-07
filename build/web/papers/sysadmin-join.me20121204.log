@@ -1,0 +1,4 @@
+2012-12-04 10:48:43.818 - Error     - Website - URL: https://secure.join.me/host/hostservice.asmx/VersionCheck
+2012-12-04 10:48:43.818 - Error     - Website - site returned error: 1.
+2012-12-04 10:48:44.826 - Error     - Filter - <unknown> - Error in Write. Filtered stream has not been set. (0x83FF0103)
+2012-12-04 11:08:54.920 - Error     - Gateway - Can't read message (not online): 0x83FF0104

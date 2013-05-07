@@ -1,0 +1,62 @@
+/* 
+    Document   : headerFooter
+    Created on : Mar 16, 2013, 10:50:50 PM
+    Author     : Matt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* stylesheet for header.jsp and footer.jsp */
+/* include on every view page */
+
+div.mainHeader {
+	height: 65px;
+	width: 100%;
+	background: darkorange;
+	color: brown;
+	font-family: georgia;
+	box-shadow: 0px 2px 10px 0px dimgray, inset 0px -1px 30px 0px rgba(0,0,0,0.3);
+	text-shadow: 1px 1px 15px white;
+}
+
+div.mainTitle {
+	width: 250px;
+	height: 58px;
+	font-size: 1.5em;
+	padding: 7px 0 0 0;
+	border-right: 2px solid gray;
+	display: inline;
+	float: left;
+}
+
+/* .acctBtns class is for "Register" and "Login" buttons */
+div.acctBtns {
+	height: 40px;
+	width: 100px;
+	font-size: 1em;
+	font-family: arial;
+	display: inline;
+	float: right;
+	border-left: 2px solid gray;
+	padding: 25px 0 0 0;
+	background: darkorange;
+	text-shadow: 1px 1px 15px lightred;
+	cursor: pointer;
+}
+
+div.mainFooter {
+	position: absolute;
+	height: 30px;
+	top: 771px;
+	background: #3059AC;
+	color: #CCCCE8;
+	border-radius: 5px 5px 10px 10px;
+	box-shadow: 0px 0px 20px 0px black;
+	text-shadow: 0px 0px 15px black;
+	width: 1000px;
+	font-family: georgia;
+}
+
+div.copyright {
+	padding: 5px 0 0 0;
+}

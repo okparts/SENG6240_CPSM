@@ -1,0 +1,29 @@
+2012-12-28 11:17:58.604 - Error     - Socket - 68.178.232.99:80 - Error in recv(MSG_PEEK). A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.  (10060)
+2012-12-28 11:17:58.621 - Error     - INetProxy - DownloadURLToFile failed. Operation timed out. (0x83FF0007)
+2012-12-28 11:18:17.869 - Error     - Socket - 68.178.232.99:80 - Error in recv(MSG_PEEK). An existing connection was forcibly closed by the remote host.  (10054)
+2012-12-28 11:18:17.871 - Error     - INetProxy - DownloadURLToFile failed. The stream has been aborted by the peer. (0x83FF0102)
+2012-12-28 11:18:36.998 - Error     - Socket - 68.178.232.99:80 - Error in recv(MSG_PEEK). An existing connection was forcibly closed by the remote host.  (10054)
+2012-12-28 11:18:36.999 - Error     - INetProxy - DownloadURLToFile failed. The stream has been aborted by the peer. (0x83FF0102)
+2012-12-28 11:18:37.048 - Error     - Website - URL: https://secure.join.me/host/hostservice.asmx/GetPermanentTicket
+2012-12-28 11:18:37.048 - Error     - Website - site returned error: 7, .
+2012-12-28 11:18:56.179 - Error     - Socket - 68.178.232.99:80 - Error in recv(MSG_PEEK). An existing connection was forcibly closed by the remote host.  (10054)
+2012-12-28 11:18:56.180 - Error     - INetProxy - DownloadURLToFile failed. The stream has been aborted by the peer. (0x83FF0102)
+2012-12-28 11:19:15.388 - Error     - Socket - 68.178.232.99:80 - Error in recv(MSG_PEEK). An existing connection was forcibly closed by the remote host.  (10054)
+2012-12-28 11:19:15.389 - Error     - INetProxy - DownloadURLToFile failed. The stream has been aborted by the peer. (0x83FF0102)
+2012-12-28 11:22:02.677 - Error     - Socket - 68.178.232.99:80 - Error in recv(MSG_PEEK). A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.  (10060)
+2012-12-28 11:22:02.679 - Error     - INetProxy - DownloadURLToFile failed. Operation timed out. (0x83FF0007)
+2012-12-28 11:22:02.726 - Error     - Website - URL: https://secure.join.me/host/hostservice.asmx/SessionJoin
+2012-12-28 11:22:02.726 - Error     - Website - site returned error: 5.
+2012-12-28 11:22:21.875 - Error     - Socket - 68.178.232.99:80 - Error in recv(MSG_PEEK). An existing connection was forcibly closed by the remote host.  (10054)
+2012-12-28 11:22:21.876 - Error     - INetProxy - DownloadURLToFile failed. The stream has been aborted by the peer. (0x83FF0102)
+2012-12-28 11:23:27.514 - Error     - Socket - 68.178.232.99:80 - Error in recv(MSG_PEEK). A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.  (10060)
+2012-12-28 11:23:27.516 - Error     - INetProxy - DownloadURLToFile failed. Operation timed out. (0x83FF0007)
+2012-12-28 11:23:46.766 - Error     - Socket - 68.178.232.99:80 - Error in recv(MSG_PEEK). An existing connection was forcibly closed by the remote host.  (10054)
+2012-12-28 11:23:46.767 - Error     - INetProxy - DownloadURLToFile failed. The stream has been aborted by the peer. (0x83FF0102)
+2012-12-28 11:24:05.982 - Error     - Socket - 68.178.232.99:80 - Error in recv(MSG_PEEK). An existing connection was forcibly closed by the remote host.  (10054)
+2012-12-28 11:24:05.983 - Error     - INetProxy - DownloadURLToFile failed. The stream has been aborted by the peer. (0x83FF0102)
+2012-12-28 11:24:25.292 - Error     - Socket - 68.178.232.99:80 - Error in recv(MSG_PEEK). An existing connection was forcibly closed by the remote host.  (10054)
+2012-12-28 11:24:25.293 - Error     - INetProxy - DownloadURLToFile failed. The stream has been aborted by the peer. (0x83FF0102)
+2012-12-28 11:25:29.505 - Error     - Gateway - Can't read message (not online): 0x83FF0104
+2012-12-28 11:25:50.131 - Error     - Socket - 68.178.232.99:80 - Error in recv(MSG_PEEK). A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.  (10060)
+2012-12-28 11:25:50.133 - Error     - INetProxy - DownloadURLToFile failed. Operation timed out. (0x83FF0007)

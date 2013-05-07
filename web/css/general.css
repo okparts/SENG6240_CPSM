@@ -1,0 +1,474 @@
+/* 
+    Document   : general
+    Created on : Mar 16, 2013, 10:50:14 PM
+    Author     : Matt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* stylesheet for cpsm project */
+
+/* //////////// */
+/* CUSTOM FONTS */
+/* //////////// */
+
+@font-face {
+	font-family: customTitleFont;
+	src: url('/cpsm/fonts/andalus.ttf');
+}
+
+@font-face {
+	font-family: customHeaderFont;
+	src: url('/cpsm/fonts/gabriola.ttf');
+}
+
+@font-face {
+	font-family: customBtnFont;
+	src: url('/cpsm/fonts/byington.ttf');
+}
+
+/* ////////////// */
+/* HEADER DISPLAY */
+/* ////////////// */
+
+div.mainHeader {
+    height: 65px;
+    width: 100%;
+    background: darkorange;
+    color: brown;
+    box-shadow: 0px 2px 10px 0px dimgray, inset 0px -8px 10px 0px rgba(255,255,255,0.5), inset 0px -1px 1px 0px rgba(255,255,255,0.4);
+    text-shadow: 1px 1px 15px white;
+}
+
+div.mainTitle {
+    background: darkorange;
+    font-family: customTitleFont, georgia;
+    width: 250px;
+    height: 58px;
+    font-size: 1.5em;
+    padding: 7px 0 0 0;
+    border-right: 2px solid gray;
+    display: inline;
+    float: left;
+    box-shadow: inset 0px -8px 10px 0px rgba(255,255,255,0.5), inset 0px -1px 1px 0px rgba(255,255,255,0.4);
+}
+
+/* .headerBtns class is for the header buttons buttons */
+div.headerBtns {
+    height: 40px;
+    width: 110px;
+    font-size: 1em;
+    font-family: customBtnFont, arial;
+    display: inline;
+    float: right;
+    border-left: 2px solid gray;
+    padding: 25px 0 0 0;
+    background: darkorange;
+    text-shadow: 1px 1px 15px white;
+    box-shadow: inset 0px -8px 10px 0px rgba(255,255,255,0.5), inset 0px -1px 1px 0px rgba(255,255,255,0.4);
+    cursor: pointer;
+}
+
+/* /////////////////// */
+/* LOGIN PAGE DISPLAYS */
+/* /////////////////// */
+
+body {
+    background: lightgray;
+    text-align: center;
+}
+
+div.mainContainer {
+    margin: 0px auto;
+    width: 1000px;
+    height: 800px;
+    background: antiquewhite;
+    box-shadow: 0px 0px 20px 0px black;
+    border-radius: 0 0 11px 11px;
+}
+
+div.formBox {
+    background: tan;
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+    box-shadow: 2px 2px 15px 0px dimgray;
+    border-radius: 10px;
+}
+
+div.formContainer {
+    margin: 25px auto 0 auto;
+    padding-top: 100px;
+    box-shadow: 0 0 15px 0 gray;
+    width: 900px;
+    height: 430px;
+    background: white;
+    border-radius: 5px;
+}
+
+div.loginContainer {
+    background: antiquewhite;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    box-shadow: 2px 2px 15px 0px dimgray inset;
+    border-radius: 5px;
+}
+
+div.titlePage {
+    font-family: courier new;
+    font-size: 1em;
+}
+
+div.loginFormContainer {
+    width: 300px;
+    margin: 40px auto;
+}
+
+div.loginLabels {
+    width: 175px;
+    text-align: right;
+    padding-top: 2px;
+}
+
+div.loginFields {
+    display: inline;
+    float: right;
+    text-align: right;
+    width: 300px;
+    position: relative;
+    left: -40px;
+}
+
+input.loginBtn {
+    margin-top: 4px;
+}
+
+div.registrationForm {
+    width: 300px;
+    margin: 40px auto;
+}
+
+div.regFields {
+    display: inline;
+    float: right;
+    text-align: right;
+    width: 350px;
+    position: relative;
+    left: -40px;
+}
+
+input.registerBtn {
+    margin-top: 4px;
+}
+
+div.recoverForm {
+    width: 300px;
+    margin: 40px auto;
+}
+
+div.recFields {
+    display: inline;
+    float: right;
+    text-align: right;
+    width: 350px;
+    position: relative;
+    left: -40px;
+}
+
+input.recoverBtn {
+    margin-top: 4px;
+}
+
+/* ///////////////////////////////// */
+/* DASHBOARD PAGE DISPLAYS - GENERAL */
+/* ///////////////////////////////// */
+
+div.content {
+    margin: 25px auto 0 auto;
+    box-shadow: 0 0 15px 0 gray;
+    width: 900px;
+    height: 550px;
+    background: white;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+div.mainDisplay {
+    width: 600px;
+    margin: 0 auto;
+}
+
+div.dashboardDisplayHeader {
+    font-family: customHeaderFont;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 2px 0 5px 0;
+    text-shadow: 1px 1px 2px dimgray;
+    color: #323232;
+}
+
+div.tabMenu {
+    height: 30px;
+    width: 80%;
+    padding: 0 10% 0 10%;
+    border-bottom: 1px solid lightgray;
+    margin: 10px 0 0 0;
+}
+
+div.tab {
+    font-family: arial;
+    display: inline;
+    float: left;
+    width: 32%;
+    height: 24px;
+    text-align: center;
+    border-top: 1px solid darkgray;
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    border-radius: 3px 3px 0px 0px;
+    padding: 5px 0 0 0;
+    margin: 0 0 0 3px;
+    color: dimgray;
+    cursor: pointer;
+    box-shadow: 0px -5px 15px -1px lightgray inset;
+}
+
+div.tabActive {
+    background: #FFE9C9;
+    font-weight: bold;
+    color: #323232;
+    text-shadow: 1px 1px 2px white;
+    border-bottom: 1px solid #ECECEC;
+    box-shadow: 0px 0px 0px 0px lightgray;
+}
+
+div.tabHover {
+    background: #FFC266;
+}
+
+div.dashDisplay {
+    width: 600px;
+    margin: 30px auto;
+    font-family: georgia;
+    font-size: 1em;
+    color: #323232;
+}
+
+div.dashDisplay p {
+    margin-top: 5px;
+}
+
+/* ///////////////////////////////////// */
+/* DASHBOARD PAGE DISPLAYS - USER PROFILE*/
+/* ///////////////////////////////////// */
+
+div.userDataLabels {
+    width: 32%;
+    position: relative;
+    float: left;
+    display: inline;
+    text-align: right;
+}
+
+div.userDataValues {
+    width: 62%;
+    position: relative;
+    float: right;
+    display: inline;
+    text-align: left;
+}
+
+div.userDataEdit {
+    width: 600px;
+    margin: 30px auto;
+    font-family: georgia;
+    font-size: 1em;
+    color: #323232;
+}
+
+div.userDataEdit p {
+    margin-top: 5px;
+}
+
+p.fieldLabel {
+    padding-top: 7px;
+}
+
+input.userEditBtn {
+    position: relative;
+    left: 64px;
+    top: 10px;
+    margin-top: 4px;
+}
+
+div.userChangePassword {
+    width: 600px;
+    margin: 30px auto;
+    font-family: georgia;
+    font-size: 1em;
+    color: #323232;
+}
+
+p.passwordFieldLabelOne {
+    padding-top: 3px;
+}
+
+p.passwordFieldLabel {
+    padding-top: 11px;
+}
+
+input.changePasswordBtn {
+    position: relative;
+    top: 10px;
+    left: -11px;
+    margin-top: 4px;
+}
+
+/* //////////////////////////////// */
+/* DASHBOARD PAGE DISPLAYS - PAPERS */
+/* //////////////////////////////// */
+
+div.currentPapers {
+    width: 500px;
+    margin: 0 auto;
+}
+
+div.currentPapersHdr {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div.uploadPaperContainer {
+    width: 500px;
+    margin: 0 auto;
+}
+
+div.conferenceTitle {
+    margin-bottom: 10px;
+}
+
+/* ///////////////////////////////////// */
+/* DASHBOARD PAGE DISPLAYS - CONFERENCES */
+/* ///////////////////////////////////// */
+
+div.conferenceListContainer {
+    clear: both;
+}
+
+div.conferenceListTitleHdr {
+    display: inline;
+    float: left;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+div.conferenceListDateHdr {
+    display: inline;
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+div.conferenceListDeadlineHdr {
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+div.conferenceListTitle {
+    display: inline;
+    float: left;
+    margin-left: 15px;
+}
+
+div.conferenceListDate {
+    display: inline;
+    float: right;
+    margin-right: 70px;
+}
+
+div.conferenceListDeadline {
+    display: inline;
+    float: right;
+    margin-right: 80px;
+}
+
+/* /////////////////////////////// */
+/* DASHBOARD PAGE DISPLAYS - ADMIN */
+/* /////////////////////////////// */
+
+
+
+/* //////////////////////// */
+/* ERROR AND DEBUG DISPLAYS */
+/* //////////////////////// */
+
+div.errMsg {
+    color: red;
+    font-size: 1.25em;
+    font-family: arial;
+    margin: 6px 0 0 0;
+}
+
+div.debug {
+    width: 1000px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    background: white;
+}
+
+div.debug table {
+    margin: 20px auto;
+}
+
+div.debug td {
+    text-align: left;
+    padding: 3px;
+}
+
+/* //////////// */
+/* FOOT DISPLAY */
+/* //////////// */
+
+div.mainFooter {
+    position: absolute;
+    height: 30px;
+    top: 771px;
+    background: #3059AC;
+    color: #CCCCE8;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px -1px 10px 0px black, inset 0px 3px 20px 0px rgba(255,255,255,0.5);
+    text-shadow: 0px 0px 15px black;
+    width: 1000px;
+    font-family: georgia;
+}
+
+div.copyright {
+    padding: 5px 0 0 0;
+}
+
+/* ////////////// */
+/* GENERAL STYLES */
+/* ////////////// */
+
+input.submitBtn {
+    background: dodgerblue;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    color: white;
+    text-shadow: 0px -1px 1px black;
+    font-weight: bold;
+    box-shadow: inset 0px 3px 5px 0px rgba(255,255,255,0.5), inset 0px -4px 5px 0px rgba(74,74,74,0.5);
+}
+
+input.submitBtn:hover {
+    background: #1565B2;
+}
+
+div.hidden {
+    display: none;
+}
